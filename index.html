@@ -8,13 +8,12 @@
         <a-scene embedded arjs>
         <a-marker preset="hiro">
         </a-marker>
-        <a-image
-            src="assets/asset.png"
+            <a-entity
+            position="0 0 0"
+            rotation="0 0 0"
             scale="1 1 1"
-            class="clickable"
-            rotation="-90 0 0"
-            gesture-handler
-        ></a-image>
+            gltf-model="assets/dartmonkey.glb"
+            ></a-entity>
         <a-entity camera></a-entity>
         </a-scene>
     </body>
